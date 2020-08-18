@@ -1,6 +1,8 @@
 # livecoding
 
-Python module to integrate tidalcycles and p5 for creating audiovisual performances.
+![License](https://img.shields.io/github/license/rafaelgoncalves8/livecoding)
+
+Python module to integrate [tidalcycles](https://github.com/tidalcycles/Tidal) and [p5](https://github.com/p5py/p5) using [python-osc](https://github.com/attwad/python-osc) for creating audiovisual performances.
 
 ## Installation
 
