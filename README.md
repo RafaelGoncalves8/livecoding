@@ -1,6 +1,6 @@
 # livecoding
 
-Python module to integrate tidalcycles and p5 for creating audiovisual performances
+Python module to integrate tidalcycles and p5 for creating audiovisual performances.
 
 ## Installation
 
@@ -40,7 +40,7 @@ tidal <- startStream defaultConfig [(superdirtTarget, [superdirtShape]),
 
 ```
 
-Then every OSC data sent to Super Dirt is also sent to port 7070 (which the module uses as default for receiving tidal data
+Then every OSC data sent to Super Dirt is also sent to port 7070 (which the module uses as default for receiving tidal data).
 
 ## Example
 
@@ -65,4 +65,4 @@ lc = MyLiveCodingSession()
 lc.run()
 ```
 
-In the example one creates a session by inheriting a class from `TidalSession` and write functions for `setup` and `draw` as one would using p5. The variable `self.lock` is a `threading.Lock` used for avoid race condition. The variable `self.parameters` is a dictionary in wich key is OSC variable name and value is its current value.
+In this example, ones creates a session by inheriting a class from `TidalSession` and writing the functions for `setup` and `draw` as one would using p5. The variable `self.lock` is a `threading.Lock` used for avoiding race condition. The variable `self.parameters` is a dictionary in which each key is an OSC variable name and each value is its current value.
