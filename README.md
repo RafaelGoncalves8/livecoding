@@ -65,4 +65,4 @@ lc = MyLiveCodingSession()
 lc.run()
 ```
 
-In this example, ones creates a session by inheriting a class from `TidalSession` and writing the functions for `setup` and `draw` as one would using p5. The variable `self.lock` is a `threading.Lock` used for avoiding race condition. The variable `self.parameters` is a dictionary in which each key is an OSC variable name and each value is its current value.
+In this example, one creates a session by inheriting a class from `TidalSession` and writing the functions for `setup` and `draw` as one would using p5. The variable `self.lock` is a `threading.Lock` used for avoiding race condition. The variable `self.parameters` is a dictionary in which each key is an OSC variable name and each value is its current value.
